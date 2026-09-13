@@ -84,6 +84,17 @@ RISK_BANDS = (
 )
 OOD_LABEL = "UNFAMILIAR INPUT · RESULT UNRELIABLE"
 
+# Brand mark: an orbit ring over three water waves (inline SVG, no external asset).
+BRAND_MARK_SVG = (
+    '<svg viewBox="0 0 48 48" fill="none" aria-hidden="true">'
+    '<circle cx="24" cy="24" r="21" stroke="#4FB3D9" stroke-opacity=".35" stroke-width="2"/>'
+    '<circle cx="38.8" cy="9.2" r="3" fill="#E6EDF3"/>'
+    '<path d="M9 22c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3 3-3 6-3" stroke="#4FB3D9" stroke-width="2.6" stroke-linecap="round"/>'
+    '<path d="M9 29c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3 3-3 6-3" stroke="#4FB3D9" stroke-opacity=".7" stroke-width="2.6" stroke-linecap="round"/>'
+    '<path d="M12 36c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3" stroke="#4FB3D9" stroke-opacity=".4" stroke-width="2.6" stroke-linecap="round"/>'
+    "</svg>"
+)
+
 COLOR_TEXT = "#E6EDF3"
 COLOR_MUTED = "#8B98A5"
 COLOR_ACCENT = "#4FB3D9"
@@ -131,11 +142,15 @@ header[data-testid="stHeader"]{background:transparent}
 [data-testid="stImage"] img{border-radius:4px;border:1px solid var(--border)}
 .poc-banner{background:#1F1705;color:#E3B341;border:1px solid #4A3A10;border-radius:4px;padding:6px 10px;margin-bottom:14px;
 font:500 .7rem/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;text-align:center}
-.app-header{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px;
-border-bottom:1px solid var(--border);padding-bottom:12px;margin-bottom:4px}
-.app-title{font-size:1.35rem;font-weight:600;color:var(--text);letter-spacing:.01em}
-.app-title span{color:var(--muted);font-weight:400}
-.app-meta{font:.74rem var(--mono);color:var(--muted)}
+.app-header{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;
+padding:10px 0 18px;margin-bottom:6px;border-bottom:1px solid var(--border);
+background:radial-gradient(ellipse 60% 90% at 50% 0%,rgba(79,179,217,.10),transparent 70%)}
+.app-brand{display:flex;align-items:center;justify-content:center;gap:14px}
+.app-brand svg{width:clamp(34px,4vw,48px);height:auto;flex:none}
+.app-wordmark{font:700 clamp(2.4rem,5vw,3.6rem)/1 var(--sans);letter-spacing:-.03em;
+background:linear-gradient(100deg,#E6EDF3 20%,#4FB3D9 95%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.app-tagline{font:500 .8rem var(--mono);letter-spacing:.32em;text-transform:uppercase;color:var(--muted);padding-left:.32em}
+.app-meta{font:.72rem var(--mono);color:var(--muted);margin-top:4px}
 .app-meta b{font-weight:600}
 .stTabs [data-baseweb="tab-list"]{gap:28px;border-bottom:1px solid var(--border)}
 .stTabs [data-baseweb="tab"]{padding:10px 0;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
@@ -303,7 +318,8 @@ def render_header(loaded: LoadedCheckpoint | None) -> None:
         '<div class="poc-banner">Research prototype · Sentinel-2 true colour (Sen1Floods11) · '
         "not for operational use</div>"
         '<div class="app-header">'
-        '<div class="app-title">Floodify <span>/ Satellite Flood Intelligence</span></div>'
+        f'<div class="app-brand">{BRAND_MARK_SVG}<span class="app-wordmark">Floodify</span></div>'
+        '<div class="app-tagline">Satellite Flood Intelligence</div>'
         f'<div class="app-meta">EfficientNet-B0 · Grad-CAM++ · CPU &nbsp;|&nbsp; {status}{guard}</div>'
         "</div>",
         unsafe_allow_html=True,
