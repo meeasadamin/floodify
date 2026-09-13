@@ -1,4 +1,4 @@
-"""Satellite Flood Intelligence System — Streamlit frontend.
+"""Floodify — Satellite Flood Intelligence. Streamlit frontend.
 
 Serves the checkpoint produced by `train_pipeline.py`. Every value shared with
 training (class order, input size, normalization, architecture, OOD features)
@@ -94,7 +94,7 @@ COLOR_OK = "#3FB950"
 PLOT_FONT = dict(family="IBM Plex Mono, Consolas, monospace", color=COLOR_MUTED)
 
 st.set_page_config(
-    page_title="Satellite Flood Intelligence System",
+    page_title="Floodify · Satellite Flood Intelligence",
     page_icon=":material/satellite_alt:",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -303,7 +303,7 @@ def render_header(loaded: LoadedCheckpoint | None) -> None:
         '<div class="poc-banner">Research prototype · Sentinel-2 true colour (Sen1Floods11) · '
         "not for operational use</div>"
         '<div class="app-header">'
-        '<div class="app-title">Satellite Flood Intelligence <span>/ Rapid Damage Triage</span></div>'
+        '<div class="app-title">Floodify <span>/ Satellite Flood Intelligence</span></div>'
         f'<div class="app-meta">EfficientNet-B0 · Grad-CAM++ · CPU &nbsp;|&nbsp; {status}{guard}</div>'
         "</div>",
         unsafe_allow_html=True,
@@ -336,23 +336,43 @@ def select_input(enabled: bool) -> dict | None:
                 "name": uploaded.name, "bytes": uploaded.getvalue(), "source": "upload", "truth": None,
             }
 
-        st.markdown('<div class="kpi-label" style="margin-top:1rem">Reference tiles</div>', unsafe_allow_html=True)
-        st.caption("TILE-01…04: Pakistan flood event, held out from training. SYNTH-05: synthetic, tests the OOD guard.")
+        real_tiles = [t for t in SAMPLE_TILES if t["truth"] is not None]
+        guard_tiles = [t for t in SAMPLE_TILES if t["truth"] is None]
+
+        st.markdown('<div class="kpi-label" style="margin-top:1.2rem">Pakistan flood event</div>', unsafe_allow_html=True)
+        st.caption("Real Sentinel-2 tiles the model never saw in training. Hand labels are revealed after analysis.")
         cols = st.columns(2)
-        for i, tile in enumerate(SAMPLE_TILES):
+        for i, tile in enumerate(real_tiles):
             with cols[i % 2]:
-                if not tile["path"].exists():
-                    st.caption(f"Missing: {tile['path'].name}")
-                    continue
-                st.image(str(tile["path"]), width="stretch")
-                if st.button(tile["id"], key=f"tile_{tile['id']}", width="stretch", disabled=not enabled):
-                    st.session_state.active = {
-                        "name": f"{tile['id']} ({tile['path'].name})",
-                        "bytes": tile["path"].read_bytes(),
-                        "source": "reference",
-                        "truth": tile["truth"],
-                    }
+                _reference_tile(tile, enabled)
+
+        st.markdown('<div class="kpi-label" style="margin-top:1.2rem">Guard test</div>', unsafe_allow_html=True)
+        for tile in guard_tiles:
+            thumb_col, text_col = st.columns([1, 1.25], vertical_alignment="center")
+            with thumb_col:
+                _reference_tile(tile, enabled)
+            text_col.caption("Not satellite imagery. Floodify should flag it as **unfamiliar** instead of trusting "
+                             "its own score.")
     return st.session_state.get("active")
+
+
+def _reference_tile(tile: dict, enabled: bool) -> None:
+    """Thumbnail + select button; the active tile's button is highlighted."""
+    if not tile["path"].exists():
+        st.caption(f"Missing: {tile['path'].name}")
+        return
+    active = st.session_state.get("active") or {}
+    is_active = active.get("source") == "reference" and active.get("name", "").startswith(tile["id"])
+    st.image(str(tile["path"]), width="stretch")
+    if st.button(tile["id"], key=f"tile_{tile['id']}", width="stretch", disabled=not enabled,
+                 type="primary" if is_active else "secondary"):
+        st.session_state.active = {
+            "name": f"{tile['id']} ({tile['path'].name})",
+            "bytes": tile["path"].read_bytes(),
+            "source": "reference",
+            "truth": tile["truth"],
+        }
+        st.rerun()  # re-render so the highlight moves to the tile just selected
 
 
 # --------------------------------------------------------------------------

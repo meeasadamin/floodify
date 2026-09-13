@@ -1,4 +1,4 @@
-# Satellite Flood Intelligence System
+# Floodify · Satellite Flood Intelligence
 
 [![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.12--3.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.63-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Explainable flood triage for Sentinel-2 satellite imagery. An EfficientNet-B0 classifier scores each tile, Grad-CAM++ shows the spatial evidence for flooding, an input-familiarity guard refuses to vouch for imagery unlike its training data, and an analyst dashboard ranks tiles, records human verification, and exports an auditable evidence package.
+**Floodify** is explainable flood triage for Sentinel-2 satellite imagery. An EfficientNet-B0 classifier scores each tile, Grad-CAM++ shows the spatial evidence for flooding, an input-familiarity guard refuses to vouch for imagery unlike its training data, and an analyst dashboard ranks tiles, records human verification, and exports an auditable evidence package.
 
 > **Research prototype, not for operational use.** Trained on 10 flood events from Sen1Floods11 and tested on an 11th, **Pakistan**, that the model never saw.
 
@@ -122,7 +122,7 @@ Training is deterministic on CPU: two independent runs produced identical metric
 ## Deploy to Streamlit Community Cloud
 
 1. Push this repository to GitHub. The 19 MB checkpoint is committed directly; no Git LFS is needed.
-2. At [share.streamlit.io](https://share.streamlit.io), choose **Create app → From GitHub**, select the repo, branch `main`, main file `app.py`.
+2. At [share.streamlit.io](https://share.streamlit.io), choose **Create app → From GitHub**, select the repo, branch `main`, main file `app.py`, and pick a distinct app URL (e.g. `floodify-pakistan`; `floodify-web` is already taken by another project).
 3. Under **Advanced settings**, choose Python **3.12** or **3.13** (the dependency set is verified to resolve for both on Linux, with CPU-only PyTorch).
 4. Deploy, then replace `OWNER/REPO` in the CI badge above.
 

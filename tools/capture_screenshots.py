@@ -48,7 +48,7 @@ def main() -> int:
         browser = p.chromium.launch(channel=args.channel, headless=True)
         page = browser.new_page(viewport={"width": 1440, "height": 1100}, color_scheme="dark")
         page.goto(args.url, wait_until="networkidle")
-        expect(page.get_by_text("Satellite Flood Intelligence").first).to_be_visible(timeout=TIMEOUT_MS)
+        expect(page.get_by_text("Floodify").first).to_be_visible(timeout=TIMEOUT_MS)
         settle(page)
 
         page.get_by_role("button", name="TILE-01", exact=True).click()
