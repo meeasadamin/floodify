@@ -1,5 +1,6 @@
 # Floodify · Satellite Flood Intelligence
 
+[![Live demo](https://img.shields.io/badge/Live%20demo-floodify--pakistan.streamlit.app-4FB3D9?logo=streamlit&logoColor=white)](https://floodify-pakistan.streamlit.app/)
 [![CI](https://github.com/meeasadamin/floodify/actions/workflows/ci.yml/badge.svg)](https://github.com/meeasadamin/floodify/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.12--3.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.14%20CPU-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -7,6 +8,8 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Floodify** is explainable flood triage for Sentinel-2 satellite imagery. An EfficientNet-B0 classifier scores each tile, Grad-CAM++ shows the spatial evidence for flooding, an input-familiarity guard refuses to vouch for imagery unlike its training data, and an analyst dashboard ranks tiles, records human verification, and exports an auditable evidence package.
+
+**Try it live: [floodify-pakistan.streamlit.app](https://floodify-pakistan.streamlit.app/)** (the first load can take a minute if the app has been idle).
 
 > **Research prototype, not for operational use.** Trained on 10 flood events from Sen1Floods11 and tested on an 11th, **Pakistan**, that the model never saw.
 
