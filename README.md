@@ -1,6 +1,6 @@
 # Floodify · Satellite Flood Intelligence
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
+[![CI](https://github.com/meeasadamin/floodify/actions/workflows/ci.yml/badge.svg)](https://github.com/meeasadamin/floodify/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.12--3.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.14%20CPU-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.63-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -124,7 +124,7 @@ Training is deterministic on CPU: two independent runs produced identical metric
 1. Push this repository to GitHub. The 19 MB checkpoint is committed directly; no Git LFS is needed.
 2. At [share.streamlit.io](https://share.streamlit.io), choose **Create app → From GitHub**, select the repo, branch `main`, main file `app.py`, and pick a distinct app URL (e.g. `floodify-pakistan`; `floodify-web` is already taken by another project).
 3. Under **Advanced settings**, choose Python **3.12** or **3.13** (the dependency set is verified to resolve for both on Linux, with CPU-only PyTorch).
-4. Deploy, then replace `OWNER/REPO` in the CI badge above.
+4. Deploy.
 
 ---
 
