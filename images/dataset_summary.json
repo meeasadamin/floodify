@@ -1,0 +1,48 @@
+{
+  "generated_utc": "2026-09-13T08:20:35+00:00",
+  "source": "gs://sen1floods11/v1.1/data/flood_events/HandLabeled (Sen1Floods11 v1.1 hand-labeled, Sentinel-2)",
+  "n_chips": 446,
+  "tile_size": 256,
+  "rule": {
+    "valid_min": 0.8,
+    "flood_min": 0.1,
+    "clear_max": 0.01,
+    "flood_pixels": "LabelHand == 1 and JRCWaterHand == 0",
+    "rgb": "B4/B3/B2 reflectance, linear stretch 0-0.3"
+  },
+  "holdout_event": "Pakistan",
+  "counts": {
+    "test_pakistan/discard_ambiguous": 19,
+    "test_pakistan/discard_nodata": 45,
+    "test_pakistan/flooded": 9,
+    "test_pakistan/not_flooded": 39,
+    "train/discard_ambiguous": 432,
+    "train/discard_nodata": 362,
+    "train/flooded": 242,
+    "train/not_flooded": 636
+  },
+  "per_event": {
+    "Bolivia/flooded": 8,
+    "Bolivia/not_flooded": 8,
+    "Ghana/flooded": 15,
+    "Ghana/not_flooded": 87,
+    "India/flooded": 62,
+    "India/not_flooded": 40,
+    "Mekong/flooded": 35,
+    "Mekong/not_flooded": 39,
+    "Nigeria/flooded": 16,
+    "Nigeria/not_flooded": 23,
+    "Pakistan/flooded": 9,
+    "Pakistan/not_flooded": 39,
+    "Paraguay/flooded": 38,
+    "Paraguay/not_flooded": 127,
+    "Somalia/flooded": 13,
+    "Somalia/not_flooded": 41,
+    "Spain/flooded": 24,
+    "Spain/not_flooded": 63,
+    "Sri-Lanka/flooded": 11,
+    "Sri-Lanka/not_flooded": 64,
+    "USA/flooded": 20,
+    "USA/not_flooded": 144
+  }
+}

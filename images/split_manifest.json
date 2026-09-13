@@ -1,0 +1,3712 @@
+{
+ "train": [
+  {
+   "path": "not_flooded/Bolivia_195474_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Bolivia_195474_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Bolivia_195474_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Bolivia_23014_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Bolivia_23014_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Bolivia_360519_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Bolivia_360519_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Bolivia_360519_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_103272_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_103272_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_103272_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_103272_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_1078550_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_1078550_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_1078550_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_11745_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_11745_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_11745_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_11745_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_124834_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_124834_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_124834_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_124834_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_128663_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_128663_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_141271_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_141271_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_141271_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_142312_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_142312_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_142312_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_142312_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_146222_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_147015_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_147015_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_156478_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_156478_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_156478_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_156478_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_167233_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_167233_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_167233_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_167233_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_187318_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_187318_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_187318_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_187318_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_24858_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_24858_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_24858_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_24858_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_308249_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_308249_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_308249_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_313799_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_359826_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_359826_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_362274_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_362274_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_406026_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_406026_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_406026_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_495107_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_495107_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_49890_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_49890_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_49890_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_49890_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_53713_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_53713_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_53713_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_53713_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_597288_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_61925_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_61925_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_61925_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_61925_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_7496_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_7496_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_7496_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_7496_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_8090_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_887131_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_887131_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_895194_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_895194_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_895194_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_953791_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_953791_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_953791_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_97516_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_136196_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_136196_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_136196_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_177319_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_177319_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_177319_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_25540_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_324254_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_324254_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_373039_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_44475_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_44475_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_44475_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_44475_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_534470_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_592446_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_592446_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_624341_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_631692_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_631692_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_631692_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_631692_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_664410_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_691027_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_707886_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_707886_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_747970_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_764946_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_764946_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_764946_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_842775_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_869358_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_869358_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1149855_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1191208_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_119477_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_119477_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_119477_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1395593_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1395593_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1413877_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1413877_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1413877_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_213094_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_213094_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_213094_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_221789_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_221789_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_269835_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_269835_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_293769_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_293769_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_333434_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_342411_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_382276_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_382276_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_424793_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_424793_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_424793_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_45934_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_45934_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_45934_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_45934_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_474783_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_474783_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_846007_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_977338_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_143329_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_143329_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_143329_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_22088_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_22088_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_225131_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_225131_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_225131_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_31096_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_31096_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_35845_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_35845_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_439488_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_439488_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_707067_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_707067_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_78061_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_820924_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_820924_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_820924_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_952958_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_1019808_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_1019808_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_1019808_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_1056717_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_1056717_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_1076204_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_1076204_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_1076204_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_148318_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_148318_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_149830_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_149830_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_149830_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_172476_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_172476_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_179624_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_179624_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_179624_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_179624_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_191503_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_191503_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_191503_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_191503_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_198534_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_212687_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_212687_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_215904_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_215904_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_215904_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_224845_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_246154_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_246154_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_246154_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_246154_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_247656_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_271769_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_271769_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_280900_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_280900_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_284928_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_284928_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_284928_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_284928_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_36015_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_36015_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_36015_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_36015_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_36146_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_36146_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_36146_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_36146_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_403081_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_403081_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_403081_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_44682_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_44682_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_44682_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_48673_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_48673_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_48673_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_48673_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_511199_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_54421_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_54421_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_54421_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_54421_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_59731_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_59731_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_59731_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_648632_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_648632_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_651904_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_76868_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_76868_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_7894_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_7894_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_790830_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_790830_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_791364_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_791364_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_791364_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_792268_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_792268_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_792268_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_792268_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_795075_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_80102_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_80102_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_80102_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_80102_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_892933_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_892933_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_913449_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_989230_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_166342_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_166342_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_166342_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_167787_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_167787_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_195014_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_195014_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_195014_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_195014_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_205466_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_205466_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_205466_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_205466_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_256539_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_256539_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_256539_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_322855_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_371421_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_60129_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_60129_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_60129_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_60129_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_61368_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_61368_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_61368_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_649376_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_649376_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_699062_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_93023_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_94102_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_94102_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_94102_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_970508_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_989553_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_1199913_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_1199913_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_1199913_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2472849_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2472849_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2472849_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2472849_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2594119_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2594119_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2594119_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2594119_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2938657_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2938657_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2938657_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_3285448_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_337094_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_337094_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_4915752_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_4915752_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_4915752_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_5678382_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_5678382_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_5816638_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_5816638_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_5816638_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_5816638_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_5923267_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_5923267_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6199994_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6199994_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6199994_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6199994_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6537196_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6537196_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6860600_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6860600_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6860600_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_6860600_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_716716_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_716716_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_716716_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7558720_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7558720_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7558720_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7604243_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7604243_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7604243_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7786924_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7786924_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_7856615_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8104659_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8104659_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8104659_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8199661_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8199661_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8199661_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8565131_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8565131_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_120804_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_120804_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_120804_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_135713_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_163406_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_178753_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_178753_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_178753_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_178753_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_233609_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_233609_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_236030_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_236628_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_236628_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_236628_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_249079_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_249079_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_400518_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_400518_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_400518_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_49764_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_52223_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_52223_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_52223_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_52223_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_534068_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_534068_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_534068_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_551926_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_55568_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_579082_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_579082_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_612594_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_612594_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_63307_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_63307_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_63307_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_713926_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_748447_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_748447_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_748447_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_845821_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_845821_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_845821_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_849649_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_849649_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_849649_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_85652_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_922192_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_922192_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_922192_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_956740_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_956740_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1010394_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1010394_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1010394_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1010394_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1039203_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1039203_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1039203_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1039203_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1049586_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1049586_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1049586_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_11422_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_114964_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_114964_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_114964_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_114964_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_115033_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_115033_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_115033_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_170264_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_179917_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_179917_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_179917_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_179917_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_181263_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_181263_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_181503_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_181503_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_181503_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_181503_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_19225_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_19225_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_19225_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_224165_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_224165_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_224165_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_224165_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_232060_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_232060_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_232060_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_251323_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_251323_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_251323_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_251323_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_260929_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_275372_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_275372_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_275372_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_308150_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_308150_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_308150_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_348639_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_350244_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_350244_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_350244_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_350244_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_354981_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_354981_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_354981_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_438959_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_504150_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_504150_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_504150_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_519181_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_519181_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_519181_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_527077_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_527077_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_527077_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_527077_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_58086_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_595451_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_646878_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_646878_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_646878_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_652955_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_652955_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_655230_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_655230_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_655230_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_655230_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_66026_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_66026_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_66026_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_66026_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_664261_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_66511_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_66511_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_670826_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_670826_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_67102_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_67102_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_67102_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_693819_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_693819_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_693819_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_741073_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_741178_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_741178_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_741178_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_741178_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_758178_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_758178_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_758178_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_761032_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_806273_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_826217_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_826217_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_826217_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_84195_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_84195_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_905409_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_905409_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_908474_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_908474_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_908474_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_908474_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_933610_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_933610_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_933610_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_986268_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_986268_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_994009_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_994009_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_994009_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_994009_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "flooded/Bolivia_103757_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Bolivia_129334_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Bolivia_129334_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Bolivia_129334_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Bolivia_242570_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Bolivia_242570_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Bolivia_314919_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Bolivia_432776_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_1033830_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_1033830_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_141910_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_141910_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_141910_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_308249_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_313799_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_362274_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_362274_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_868803_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_868803_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_868803_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_868803_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_887131_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Ghana_895194_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1017769_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1018317_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1018317_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1018327_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1018327_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1050276_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1050276_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1050276_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1050276_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1068117_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1068117_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1068117_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1068117_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_1072277_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_180633_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_207862_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_25540_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_285297_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_285297_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_287642_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_383430_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_383430_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_383430_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_383430_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_399883_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_399883_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_399883_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_399883_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_500266_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_500266_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_500266_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_591317_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_591317_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_652725_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_773682_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_773682_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_773682_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_804466_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_804466_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_804466_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_804466_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_900498_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_900498_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_900498_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_900498_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_91379_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_91379_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_943439_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_943439_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_943439_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_943439_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1149855_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1248200_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1248200_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1248200_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1248200_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1395593_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1396181_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1396181_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1396181_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1396181_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1443339_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1443339_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1443339_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1443339_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_293769_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_342411_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_342411_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_382276_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_52610_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_52610_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_52610_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_52610_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_596495_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_922373_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_922373_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_922373_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_922373_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_529525_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_529525_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_529525_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_529525_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_598959_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_812045_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_812045_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_81933_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_81933_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_81933_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_81933_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_984831_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_984831_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_984831_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_1029042_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_1029042_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_126224_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_126224_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_126224_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_126224_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_212687_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_212687_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_232281_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_24341_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_24341_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_305760_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_305760_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_339807_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_339807_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_605682_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_605682_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_605682_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_605682_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_62897_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_62897_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_648632_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_657443_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_657443_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_822142_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_822142_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_822142_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_892933_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_892933_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_896458_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_934240_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_997480_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_12849_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_295782_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_322855_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_322855_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_371421_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_685158_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_94102_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_970508_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_970508_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_1167260_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_1167260_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_1167260_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_337094_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_337094_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_4282030_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_4282030_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_4282030_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_4282030_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_5650136_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_6095801_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_7370579_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_7370579_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_7370579_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_7370579_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_7387658_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_7387658_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_7387658_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_7387658_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_8199661_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_8372658_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_8372658_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_8565131_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Spain_8565131_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_1038087_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_132922_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_14484_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_14484_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_523539_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_551926_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_63307_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_916628_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_92824_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_92824_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_11422_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_170264_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_170264_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_217598_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_217598_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_348639_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_58086_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_58086_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_595451_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_761032_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_770353_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_770353_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_86502_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_86502_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_86502_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_955053_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_955053_r1c1.png",
+   "label": "flooded"
+  }
+ ],
+ "val": [
+  {
+   "path": "not_flooded/Ghana_1089161_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_1089161_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_1089161_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Ghana_83200_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_164336_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_164336_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_164336_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_273873_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_56450_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_59460_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/India_59460_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1282475_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_1282475_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_16233_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_254910_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Mekong_254910_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_1095404_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Nigeria_1095404_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_11869_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_11869_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_11869_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_11869_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_12870_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_12870_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_12870_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_12870_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_153941_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_153941_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_153941_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_153941_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_205585_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_205585_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_205585_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_205585_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_225187_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_225187_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_225187_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_225187_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_252217_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_252217_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_252217_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_252217_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_40936_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_40936_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_40936_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_470303_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_470303_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_683296_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_683296_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_683296_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Paraguay_921838_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_230192_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_230192_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_230192_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_230192_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_7931_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_7931_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Somalia_886726_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2523247_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_2523247_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8154154_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8154154_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Spain_8154154_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_101973_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_101973_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_152185_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_152185_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_152185_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_31559_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_31559_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_31559_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_883641_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_883641_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Sri-Lanka_883641_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1082482_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1082482_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_1082482_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_211406_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_211406_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_211406_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_211406_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_225017_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_347609_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_347609_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_375183_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_375183_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_605492_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_605492_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_605492_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_778194_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_778194_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/USA_778194_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "flooded/India_391908_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_391908_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_747992_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_747992_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_747992_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_747992_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_833266_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_956930_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_956930_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_956930_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/India_956930_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1282475_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1282475_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1439641_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1439641_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1439641_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_1439641_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_16233_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Mekong_16233_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_1095404_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Nigeria_1095404_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_1029191_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_470303_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_581976_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_581976_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_581976_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Paraguay_581976_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_626316_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_886726_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_886726_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Somalia_886726_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Sri-Lanka_883641_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_1068362_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_1068362_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/USA_831672_r0c1.png",
+   "label": "flooded"
+  }
+ ],
+ "test": [
+  {
+   "path": "not_flooded/Pakistan_132143_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_132143_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_132143_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_132143_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_167553_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_167553_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_167553_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_210595_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_210595_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_210595_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_210595_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_246718_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_336228_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_366265_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_401863_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_401863_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_401863_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_43105_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_43105_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_43105_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_43105_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_474121_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_528249_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_548910_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_548910_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_65724_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_65724_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_65724_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_65724_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_694942_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_694942_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_70625_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_70625_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_740461_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_740461_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_740461_r1c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_760290_r0c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_760290_r0c1.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "not_flooded/Pakistan_760290_r1c0.png",
+   "label": "not_flooded"
+  },
+  {
+   "path": "flooded/Pakistan_246718_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Pakistan_35915_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Pakistan_694942_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Pakistan_849790_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Pakistan_849790_r0c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Pakistan_849790_r1c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Pakistan_849790_r1c1.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Pakistan_94095_r0c0.png",
+   "label": "flooded"
+  },
+  {
+   "path": "flooded/Pakistan_94095_r0c1.png",
+   "label": "flooded"
+  }
+ ]
+}

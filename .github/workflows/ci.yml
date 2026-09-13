@@ -1,0 +1,36 @@
+# Audit #18: a real check behind the README badge.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies (CPU-only torch via requirements.txt index)
+        run: pip install -r requirements.txt pytest
+
+      - name: Consistency, regression, and Streamlit interaction tests
+        run: pytest -q
+
+      - name: End-to-end pipeline smoke run (tiny synthetic set, no pretrained download)
+        run: |
+          python generate_synthetic_data.py --out_dir /tmp/data --n_per_class 20
+          python generate_synthetic_data.py --out_dir /tmp/ext --n_per_class 6 --seed 7
+          python train_pipeline.py --data_dir /tmp/data --test_dir /tmp/ext --ood_probe_dir samples \
+            --model_out /tmp/out/model.pth --images_out /tmp/out/images \
+            --epochs_stage1 1 --epochs_stage2 1 --no-pretrained
+          python grad_cam.py --model_path /tmp/out/model.pth --data_dir /tmp/data \
+            --out_path /tmp/out/images/gradcam_sample.png --n_samples 2
+          test -f /tmp/out/images/final_metrics.json
+          test -f /tmp/out/model.pth.sha256

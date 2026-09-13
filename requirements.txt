@@ -1,0 +1,16 @@
+# Pinned to the exact versions the test suite and end-to-end pipeline were
+# verified against. CPU-only PyTorch wheels: the PyPI default on Linux pulls
+# multi-GB CUDA libraries, which a CPU deployment (e.g. Streamlit Community
+# Cloud) neither needs nor has room for.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0+cpu
+torchvision==0.29.0+cpu
+grad-cam==1.5.7
+streamlit==1.63.0
+plotly==7.0.0
+Pillow==12.3.0
+numpy==2.5.2
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+tifffile==2026.9.9

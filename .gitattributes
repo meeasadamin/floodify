@@ -1,0 +1,10 @@
+# Audit #17: the trained checkpoint is committed directly. It is ~16 MB (the
+# pipeline asserts < 25 MB), well under GitHub's 100 MB file limit, so plain git
+# is used instead of Git LFS: clones and Streamlit Community Cloud get the real
+# weights with no LFS setup.
+*.pth binary
+*.png binary
+*.jpg binary
+
+# Integrity sidecars stay as LF text so the SHA-256 line is byte-stable across OSes.
+*.sha256 text eol=lf
