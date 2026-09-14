@@ -194,6 +194,22 @@ color:var(--accent);background:rgba(79,179,217,.12);border:1px solid rgba(79,179
 [data-testid="stSidebar"] button p{font:600 .78rem var(--mono);letter-spacing:.04em}
 .sb-foot{font:.72rem/1.6 var(--mono);color:var(--muted);text-align:center;padding:6px 0 10px}
 .sb-foot a{color:var(--accent);text-decoration:none}
+/* Call-to-action buttons: upload (blue gradient) and evidence export (green-to-blue gradient). */
+.st-key-single_upload [data-testid="stFileUploaderDropzone"] button,
+.st-key-batch_upload [data-testid="stFileUploaderDropzone"] button{
+background:linear-gradient(135deg,#5CC8F0 0%,#2F86D6 100%);color:#06131C;border:0;border-radius:9px;
+box-shadow:0 4px 16px rgba(79,179,217,.35);transition:transform .15s ease,box-shadow .15s ease,filter .15s ease}
+.st-key-single_upload [data-testid="stFileUploaderDropzone"] button:hover,
+.st-key-batch_upload [data-testid="stFileUploaderDropzone"] button:hover{
+filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 6px 22px rgba(79,179,217,.5);color:#06131C}
+.st-key-single_upload [data-testid="stFileUploaderDropzone"] button *,
+.st-key-batch_upload [data-testid="stFileUploaderDropzone"] button *{color:#06131C !important;font-weight:700}
+.st-key-export_evidence button{
+background:linear-gradient(120deg,#3FB950 0%,#2BA89A 50%,#4FB3D9 100%);color:#04110A;border:0;border-radius:10px;
+min-height:3rem;box-shadow:0 6px 22px rgba(63,185,80,.28);transition:transform .15s ease,box-shadow .15s ease,filter .15s ease}
+.st-key-export_evidence button:hover{filter:brightness(1.07);transform:translateY(-1px);
+box-shadow:0 8px 28px rgba(63,185,80,.42);color:#04110A}
+.st-key-export_evidence button *{color:#04110A !important;font-weight:700;font-size:.95rem}
 /* Keep the sidebar's 2-up tile grid on narrow screens (Streamlit stacks columns below 640px). */
 [data-testid="stSidebar"] [data-testid="stHorizontalBlock"]{flex-wrap:nowrap;gap:.6rem}
 [data-testid="stSidebar"] [data-testid="stColumn"]{min-width:0 !important;flex:1 1 0 !important;width:auto !important}
@@ -633,6 +649,7 @@ def render_evidence_download(r: dict, name: str, loaded: LoadedCheckpoint) -> No
         mime="application/zip",
         icon=":material/download:",
         width="stretch",
+        key="export_evidence",
         on_click="ignore",  # exporting must not rerun the app or reset review state
     )
 
