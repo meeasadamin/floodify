@@ -112,7 +112,7 @@ st.set_page_config(
     page_title="Floodify · Satellite Flood Intelligence",
     page_icon=":material/satellite_alt:",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",  # open on desktop, closed on phones so content is visible first
 )
 
 
@@ -194,6 +194,22 @@ color:var(--accent);background:rgba(79,179,217,.12);border:1px solid rgba(79,179
 [data-testid="stSidebar"] button p{font:600 .78rem var(--mono);letter-spacing:.04em}
 .sb-foot{font:.72rem/1.6 var(--mono);color:var(--muted);text-align:center;padding:6px 0 10px}
 .sb-foot a{color:var(--accent);text-decoration:none}
+/* Keep the sidebar's 2-up tile grid on narrow screens (Streamlit stacks columns below 640px). */
+[data-testid="stSidebar"] [data-testid="stHorizontalBlock"]{flex-wrap:nowrap;gap:.6rem}
+[data-testid="stSidebar"] [data-testid="stColumn"]{min-width:0 !important;flex:1 1 0 !important;width:auto !important}
+/* Phones */
+@media (max-width:640px){
+.stApp .block-container{padding-left:1rem;padding-right:1rem;padding-top:3.6rem}
+.poc-banner{font-size:.6rem;letter-spacing:.08em;padding:6px 8px}
+.app-header{padding:4px 0 12px}
+.app-tagline{font-size:.62rem;letter-spacing:.22em}
+.app-meta{font-size:.62rem;line-height:1.6}
+[data-testid="stTabs"] [role="tablist"]{display:grid;grid-template-columns:1fr 1fr;overflow:visible}
+[data-testid="stTab"]{min-width:0;padding:10px 8px}
+[data-testid="stTab"] p{font-size:.8rem;white-space:normal;text-align:center;line-height:1.2}
+.stApp .kpi-row,.stApp .kpi-row.kpi-4{grid-template-columns:1fr}
+.page-title{font-size:1.15rem}
+}
 .kpi-row{display:grid;grid-template-columns:2.2fr repeat(4,1fr);gap:1px;background:var(--border);
 border:1px solid var(--border);border-radius:6px;overflow:hidden;margin:16px 0 10px}
 .kpi-row.kpi-4{grid-template-columns:repeat(4,1fr)}
@@ -402,6 +418,13 @@ def select_input(loaded: LoadedCheckpoint | None) -> dict | None:
         or None), or None if nothing is selected.
     """
     enabled = loaded is not None
+    if enabled and "active" not in st.session_state:
+        # First visit: show a real result immediately instead of an empty page.
+        first = next(t for t in SAMPLE_TILES if t["truth"] is not None and t["path"].exists())
+        st.session_state.active = {
+            "name": f"{first['id']} ({first['path'].name})", "bytes": first["path"].read_bytes(),
+            "source": "reference", "truth": first["truth"],
+        }
     st.logo(str(LOGO_PATH), size="large", icon_image=str(ICON_PATH), link=REPO_URL)
     with st.sidebar:
         _sidebar_status(loaded)
