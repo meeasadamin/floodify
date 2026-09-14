@@ -16,7 +16,7 @@ Design decisions (audit #7):
     * The CAM is upsampled to the source image's own size, so the overlay keeps
       the native aspect ratio instead of a squashed 224 x 224 copy.
 
-Method caveats (surfaced in the dashboard's System Overview):
+Method caveats (surfaced in the dashboard's System & Provenance tab):
     * Grad-CAM++'s closed-form weights assume a piecewise-linear (ReLU) network;
       EfficientNet uses SiLU, so the weights are an approximation.
     * The target layer (features[-1]) is 7 x 7, so each cell covers ~32 px.

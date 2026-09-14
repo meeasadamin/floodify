@@ -46,6 +46,10 @@ from grad_cam import explain_image, render_evidence
 # --------------------------------------------------------------------------
 
 MODEL_PATH = DEFAULT_MODEL_PATH
+ASSETS_DIR = Path("assets")
+LOGO_PATH = ASSETS_DIR / "floodify_logo.svg"
+ICON_PATH = ASSETS_DIR / "floodify_icon.svg"
+REPO_URL = "https://github.com/meeasadamin/floodify"
 IMAGES_DIR = Path("images")
 SAMPLES_DIR = Path("samples")
 METRICS_PATH = IMAGES_DIR / "final_metrics.json"
@@ -152,10 +156,44 @@ background:linear-gradient(100deg,#E6EDF3 20%,#4FB3D9 95%);-webkit-background-cl
 .app-tagline{font:500 .8rem var(--mono);letter-spacing:.32em;text-transform:uppercase;color:var(--muted);padding-left:.32em}
 .app-meta{font:.72rem var(--mono);color:var(--muted);margin-top:4px}
 .app-meta b{font-weight:600}
-.stTabs [data-baseweb="tab-list"]{gap:28px;border-bottom:1px solid var(--border)}
-.stTabs [data-baseweb="tab"]{padding:10px 0;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.stTabs [aria-selected="true"]{color:var(--text)}
-.stTabs [data-baseweb="tab-highlight"]{background:var(--accent);height:2px}
+/* Navigation: segmented control. Streamlit 1.63 tabs are react-aria (stTab / role=tablist), not baseweb. */
+[data-testid="stTabs"] [role="tablist"]{display:flex;gap:6px;padding:6px;margin:6px 0 4px;background:var(--surface);
+border:1px solid var(--border);border-radius:14px;overflow-x:auto}
+[data-testid="stTab"]{flex:1 1 0;min-width:max-content;justify-content:center;padding:11px 18px;border-radius:10px;
+color:var(--muted);transition:background .15s ease,color .15s ease,box-shadow .15s ease}
+[data-testid="stTab"] p{font:600 .92rem/1 var(--sans);letter-spacing:.01em;white-space:nowrap}
+[data-testid="stTab"]:hover{background:var(--surface2);color:var(--text)}
+[data-testid="stTab"][aria-selected="true"]{color:var(--text);
+background:linear-gradient(180deg,rgba(79,179,217,.20),rgba(79,179,217,.06));box-shadow:inset 0 0 0 1px rgba(79,179,217,.55)}
+[data-testid="stTab"][aria-selected="true"] [role="img"]{color:var(--accent)}
+[data-testid="stTabs"] .react-aria-SelectionIndicator{display:none}
+/* Page headings inside each tab */
+.page-head{display:flex;align-items:flex-start;gap:14px;margin:18px 0 6px}
+.page-head .bar{width:4px;align-self:stretch;border-radius:4px;background:linear-gradient(180deg,var(--accent),rgba(79,179,217,.15))}
+.page-title{font:700 1.35rem/1.2 var(--sans);color:var(--text);letter-spacing:-.01em}
+.page-sub{font-size:.9rem;color:var(--muted);margin-top:4px;line-height:1.5}
+.sub-head{font:600 .72rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+margin:22px 0 10px;display:flex;align-items:center;gap:10px}
+.sub-head::after{content:"";flex:1;height:1px;background:var(--border)}
+/* Sidebar */
+[data-testid="stSidebarHeader"]{padding-bottom:4px}
+[data-testid="stSidebarHeader"] img{height:2.1rem !important;max-width:none}
+[data-testid="stSidebarUserContent"]{padding-top:0}
+.sb-status{display:flex;flex-direction:column;gap:3px;padding:10px 12px;margin:2px 0 6px;border-radius:10px;
+background:var(--surface2);border:1px solid var(--border)}
+.sb-status .pill{display:inline-flex;align-items:center;gap:8px;font:600 .74rem var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.sb-status .dot{width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 0 3px color-mix(in srgb,currentColor 25%,transparent)}
+.sb-status .meta{font:.72rem var(--mono);color:var(--muted)}
+[class*="st-key-sb_card"]{background:var(--surface2);border:1px solid var(--border);border-radius:12px;padding:14px 14px 16px}
+.sb-head{display:flex;gap:10px;align-items:flex-start;margin-bottom:2px}
+.sb-num{flex:none;width:24px;height:24px;border-radius:7px;display:grid;place-items:center;font:600 .72rem var(--mono);
+color:var(--accent);background:rgba(79,179,217,.12);border:1px solid rgba(79,179,217,.35)}
+.sb-title{font:600 .95rem/1.2 var(--sans);color:var(--text)}
+.sb-sub{font-size:.78rem;line-height:1.45;color:var(--muted);margin-top:3px}
+[data-testid="stSidebar"] [data-testid="stImage"] img{border-radius:8px}
+[data-testid="stSidebar"] button p{font:600 .78rem var(--mono);letter-spacing:.04em}
+.sb-foot{font:.72rem/1.6 var(--mono);color:var(--muted);text-align:center;padding:6px 0 10px}
+.sb-foot a{color:var(--accent);text-decoration:none}
 .kpi-row{display:grid;grid-template-columns:2.2fr repeat(4,1fr);gap:1px;background:var(--border);
 border:1px solid var(--border);border-radius:6px;overflow:hidden;margin:16px 0 10px}
 .kpi-row.kpi-4{grid-template-columns:repeat(4,1fr)}
@@ -326,49 +364,82 @@ def render_header(loaded: LoadedCheckpoint | None) -> None:
     )
 
 
-def select_input(enabled: bool) -> dict | None:
-    """Render the sidebar input rail and return the active image.
+def _sidebar_head(number: str, title: str, subtitle: str) -> None:
+    st.markdown(
+        f'<div class="sb-head"><span class="sb-num">{number}</span><div>'
+        f'<div class="sb-title">{title}</div><div class="sb-sub">{subtitle}</div></div></div>',
+        unsafe_allow_html=True,
+    )
+
+
+def _sidebar_status(loaded: LoadedCheckpoint | None) -> None:
+    if loaded is None:
+        pill, color, meta = "Model offline", COLOR_BAD, "See the error in the main panel"
+    elif loaded.format == "legacy" or not loaded.integrity_verified:
+        pill, color, meta = "Model online · unverified", COLOR_WARN, f"weights {loaded.sha256[:10]}"
+    else:
+        guard = "OOD guard on" if loaded.ood is not None else "OOD guard off"
+        pill, color, meta = "Model online · verified", COLOR_OK, f"EfficientNet-B0 · {guard}"
+    st.markdown(
+        f'<div class="sb-status"><span class="pill" style="color:{color}"><span class="dot"></span>{pill}</span>'
+        f'<span class="meta">{meta}</span></div>',
+        unsafe_allow_html=True,
+    )
+
+
+def select_input(loaded: LoadedCheckpoint | None) -> dict | None:
+    """Render the sidebar (logo, status, input cards) and return the active image.
 
     Phase 1 assigned the uploader's value on every rerun, so a persistent upload
     overwrote a reference-tile selection as soon as any other widget was used
     (audit #10). The upload is now adopted only when its file_id changes.
 
     Args:
-        enabled: False when no model is loaded (controls are disabled).
+        loaded: Loaded checkpoint, or None (controls are disabled).
 
     Returns:
         Dict with name, bytes, source ("upload" | "reference"), truth (class name
         or None), or None if nothing is selected.
     """
+    enabled = loaded is not None
+    st.logo(str(LOGO_PATH), size="large", icon_image=str(ICON_PATH), link=REPO_URL)
     with st.sidebar:
-        st.markdown('<div class="kpi-label">Input · single tile</div>', unsafe_allow_html=True)
-        uploaded = st.file_uploader(
-            "Upload satellite tile", type=UPLOAD_TYPES, label_visibility="collapsed",
-            key="single_upload", disabled=not enabled,
+        _sidebar_status(loaded)
+
+        with st.container(key="sb_card_upload"):
+            _sidebar_head("01", "Analyze your tile", "Sentinel-2 true-colour PNG or JPG, ideally 2–3 km across.")
+            uploaded = st.file_uploader(
+                "Upload satellite tile", type=UPLOAD_TYPES, label_visibility="collapsed",
+                key="single_upload", disabled=not enabled,
+            )
+            if uploaded is not None and uploaded.file_id != st.session_state.get("adopted_upload_id"):
+                st.session_state.adopted_upload_id = uploaded.file_id
+                st.session_state.active = {
+                    "name": uploaded.name, "bytes": uploaded.getvalue(), "source": "upload", "truth": None,
+                }
+
+        with st.container(key="sb_card_reference"):
+            _sidebar_head("02", "Pakistan reference set",
+                          "Real tiles from a flood event held out of training. Hand labels appear after analysis.")
+            cols = st.columns(2)
+            for i, tile in enumerate(t for t in SAMPLE_TILES if t["truth"] is not None):
+                with cols[i % 2]:
+                    _reference_tile(tile, enabled)
+
+        with st.container(key="sb_card_guard"):
+            _sidebar_head("03", "Guard test",
+                          "Not satellite imagery. Floodify should flag it as unfamiliar instead of trusting its score.")
+            for tile in (t for t in SAMPLE_TILES if t["truth"] is None):
+                thumb_col, _ = st.columns([1, 1])
+                with thumb_col:
+                    _reference_tile(tile, enabled)
+
+        st.markdown(
+            f'<div class="sb-foot">Research prototype · not for operational use<br>'
+            f'<a href="{REPO_URL}" target="_blank">GitHub</a> · '
+            f'<a href="https://github.com/cloudtostreet/Sen1Floods11" target="_blank">Sen1Floods11</a></div>',
+            unsafe_allow_html=True,
         )
-        if uploaded is not None and uploaded.file_id != st.session_state.get("adopted_upload_id"):
-            st.session_state.adopted_upload_id = uploaded.file_id
-            st.session_state.active = {
-                "name": uploaded.name, "bytes": uploaded.getvalue(), "source": "upload", "truth": None,
-            }
-
-        real_tiles = [t for t in SAMPLE_TILES if t["truth"] is not None]
-        guard_tiles = [t for t in SAMPLE_TILES if t["truth"] is None]
-
-        st.markdown('<div class="kpi-label" style="margin-top:1.2rem">Pakistan flood event</div>', unsafe_allow_html=True)
-        st.caption("Real Sentinel-2 tiles the model never saw in training. Hand labels are revealed after analysis.")
-        cols = st.columns(2)
-        for i, tile in enumerate(real_tiles):
-            with cols[i % 2]:
-                _reference_tile(tile, enabled)
-
-        st.markdown('<div class="kpi-label" style="margin-top:1.2rem">Guard test</div>', unsafe_allow_html=True)
-        for tile in guard_tiles:
-            thumb_col, text_col = st.columns([1, 1.25], vertical_alignment="center")
-            with thumb_col:
-                _reference_tile(tile, enabled)
-            text_col.caption("Not satellite imagery. Floodify should flag it as **unfamiliar** instead of trusting "
-                             "its own score.")
     return st.session_state.get("active")
 
 
@@ -459,7 +530,7 @@ def render_analyst_review(r: dict, name: str) -> None:
     """Human-in-the-loop confirm / override log, keyed by input SHA-256."""
     log = st.session_state.setdefault("review_log", {})
     key = r["sha256"]
-    st.markdown('<div class="panel-label" style="margin-top:1rem">Analyst verification</div>', unsafe_allow_html=True)
+    sub_head("Analyst sign-off")
     c1, c2, c3 = st.columns([1, 1, 3])
     note = c3.text_input(
         "Rationale", key=f"note_{key}", placeholder="Rationale (optional)", label_visibility="collapsed"
@@ -543,6 +614,20 @@ def render_evidence_download(r: dict, name: str, loaded: LoadedCheckpoint) -> No
     )
 
 
+def page_head(title: str, subtitle: str) -> None:
+    """Title block at the top of each tab."""
+    st.markdown(
+        f'<div class="page-head"><span class="bar"></span><div><div class="page-title">{title}</div>'
+        f'<div class="page-sub">{subtitle}</div></div></div>',
+        unsafe_allow_html=True,
+    )
+
+
+def sub_head(text: str) -> None:
+    """Section divider inside a tab."""
+    st.markdown(f'<div class="sub-head">{text}</div>', unsafe_allow_html=True)
+
+
 def render_threat_analysis_tab(loaded: LoadedCheckpoint, active: dict | None) -> None:
     """Render Tab 1: verdict first, then evidence, then review and export.
 
@@ -550,6 +635,7 @@ def render_threat_analysis_tab(loaded: LoadedCheckpoint, active: dict | None) ->
         loaded: Verified checkpoint.
         active: Output of `select_input`.
     """
+    page_head("Flood Assessment", "Analyze a single satellite tile: verdict, evidence map, and analyst sign-off.")
     if active is None:
         st.info("Select a reference tile or upload imagery from the sidebar.", icon=":material/satellite_alt:")
         return
@@ -563,6 +649,7 @@ def render_threat_analysis_tab(loaded: LoadedCheckpoint, active: dict | None) ->
         )
         return
 
+    sub_head("Verdict")
     render_kpi_strip(r)
     if active["truth"] is not None:
         predicted = CLASS_NAMES[r["pred_class"]]
@@ -574,6 +661,7 @@ def render_threat_analysis_tab(loaded: LoadedCheckpoint, active: dict | None) ->
         )
     st.plotly_chart(render_risk_bar(r["flood_prob"] * 100), width="stretch", config={"displayModeBar": False})
 
+    sub_head("Evidence")
     width, height = r["native_size"]
     left, right = st.columns(2, gap="medium")
     left.markdown(
@@ -591,9 +679,11 @@ def render_threat_analysis_tab(loaded: LoadedCheckpoint, active: dict | None) ->
 
 def render_batch_triage_tab(loaded: LoadedCheckpoint) -> None:
     """Rank many tiles by flood probability so analysts review the riskiest first."""
+    page_head("Priority Triage", f"Drop up to {MAX_BATCH_TILES} tiles; Floodify ranks them so the likeliest floods are "
+              "reviewed first.")
     files = st.file_uploader(
         f"Drop up to {MAX_BATCH_TILES} tiles for ranked triage",
-        type=UPLOAD_TYPES, accept_multiple_files=True, key="batch_upload",
+        type=UPLOAD_TYPES, accept_multiple_files=True, key="batch_upload", label_visibility="collapsed",
     )
     if not files:
         st.caption(
@@ -686,6 +776,8 @@ def _kpi(label: str, value: str, sub: str = "") -> str:
 
 def render_model_diagnostics_tab() -> None:
     """Render Tab 3: test-set metrics with intervals, OOD calibration, curves (audit #16 consumer)."""
+    page_head("Model Performance", "How Floodify performs on a flood event it never saw, and how the input guard is "
+              "calibrated.")
     metrics, problem = load_json(METRICS_PATH)
 
     if metrics is None:
@@ -798,6 +890,7 @@ def _card(heading: str, body_html: str) -> None:
 
 def render_system_overview_tab(loaded: LoadedCheckpoint | None) -> None:
     """Render Tab 4: data, architecture, explainability, limitations, provenance, stack."""
+    page_head("System & Provenance", "Training data, method, limitations, and a verifiable record of the model in use.")
     summary, _ = load_json(DATASET_SUMMARY_PATH)
     if summary:
         counts = summary["counts"]
@@ -832,7 +925,7 @@ def render_system_overview_tab(loaded: LoadedCheckpoint | None) -> None:
         f"Every input's {OOD_FEATURE_LAYER} are compared with the training tiles: the score is one minus the mean "
         "cosine similarity to the 10 most similar training tiles. The threshold is the 99th percentile of "
         "validation scores, so about 1% of genuine validation tiles are flagged; tiles from an unseen region are "
-        "flagged more often (see Model Diagnostics). Flagged inputs keep their score for reference but are labeled "
+        "flagged more often (see Model Performance). Flagged inputs keep their score for reference but are labeled "
         "unreliable and must not be triaged on it. The check catches clearly different imagery (photos, documents, "
         "synthetic renders); it is not a guarantee against subtle shifts. A Gaussian Mahalanobis score was evaluated "
         "first and rejected: it could not separate synthetic inputs from real tiles.",
@@ -906,14 +999,14 @@ def main() -> None:
         load_error = f"Checkpoint failed to load — {type(exc).__name__}: {exc}"
 
     render_header(loaded)
-    active = select_input(enabled=loaded is not None)
+    active = select_input(loaded)
 
     tab_threat, tab_triage, tab_diag, tab_overview = st.tabs(
         [
-            ":material/satellite_alt: Threat Analysis",
-            ":material/list: Triage Queue",
-            ":material/monitoring: Model Diagnostics",
-            ":material/info: System Overview",
+            ":material/radar: Flood Assessment",
+            ":material/format_list_numbered: Priority Triage",
+            ":material/query_stats: Model Performance",
+            ":material/verified_user: System & Provenance",
         ]
     )
     with tab_threat:

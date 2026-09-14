@@ -61,7 +61,7 @@ def main() -> int:
         settle(page)
         shoot(page, out_dir, "02_ood_guard")
 
-        page.get_by_role("tab", name="Triage Queue").click()
+        page.get_by_role("tab", name="Priority Triage").click()
         tiles = sorted((ROOT / "samples").glob("*.*"))
         page.locator('[data-testid="stFileUploaderDropzoneInput"]').last.set_input_files([str(t) for t in tiles])
         expect(page.locator('[data-testid="stProgress"]')).to_have_count(0, timeout=TIMEOUT_MS)
@@ -70,12 +70,12 @@ def main() -> int:
         settle(page)
         shoot(page, out_dir, "03_triage_queue")
 
-        page.get_by_role("tab", name="Model Diagnostics").click()
+        page.get_by_role("tab", name="Model Performance").click()
         expect(page.get_by_text("Balanced accuracy").first).to_be_visible(timeout=TIMEOUT_MS)
         settle(page)
         shoot(page, out_dir, "04_model_diagnostics")
 
-        page.get_by_role("tab", name="System Overview").click()
+        page.get_by_role("tab", name="System & Provenance").click()
         expect(page.get_by_text("Checkpoint provenance").first).to_be_visible(timeout=TIMEOUT_MS)
         settle(page)
         shoot(page, out_dir, "05_system_overview")

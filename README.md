@@ -86,12 +86,12 @@ The Gaussian scores failed because synthetic images land *near* the training fea
 
 ## Dashboard
 
-- **Threat Analysis:** verdict-first KPI strip (assessment, P(flooded), input familiarity, measured latency, input SHA-256), risk bar, source image and Grad-CAM++ evidence map at native aspect ratio, analyst confirm/override log, evidence-package ZIP export.
-- **Triage Queue:** rank up to 50 tiles by flood probability, with the familiarity check per tile.
-- **Model Diagnostics:** Pakistan test metrics with confidence intervals, confusion matrix, per-class table, guard calibration, and training curves.
-- **System Overview:** data rule, architecture, explainability, guard, known limitations, and live checkpoint provenance.
+- **Flood Assessment:** verdict-first KPI strip (assessment, P(flooded), input familiarity, measured latency, input SHA-256), risk bar, source image and Grad-CAM++ evidence map at native aspect ratio, analyst confirm/override log, evidence-package ZIP export.
+- **Priority Triage:** rank up to 50 tiles by flood probability, with the familiarity check per tile.
+- **Model Performance:** Pakistan test metrics with confidence intervals, confusion matrix, per-class table, guard calibration, and training curves.
+- **System & Provenance:** data rule, architecture, explainability, guard, known limitations, and live checkpoint provenance.
 
-| Triage queue | Model diagnostics |
+| Priority triage | Model performance |
 |---|---|
 | ![Triage](docs/screenshots/03_triage_queue.png) | ![Diagnostics](docs/screenshots/04_model_diagnostics.png) |
 

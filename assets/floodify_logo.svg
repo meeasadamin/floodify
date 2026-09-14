@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <defs>
+    <linearGradient id="wm" x1="56" y1="0" x2="196" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E6EDF3"/>
+      <stop offset="1" stop-color="#4FB3D9"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="21" stroke="#4FB3D9" stroke-opacity=".4" stroke-width="2"/>
+  <circle cx="38.8" cy="9.2" r="3.2" fill="#E6EDF3"/>
+  <path d="M9 22c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3 3-3 6-3" stroke="#4FB3D9" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M9 29c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3 3-3 6-3" stroke="#4FB3D9" stroke-opacity=".7" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M12 36c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3" stroke="#4FB3D9" stroke-opacity=".4" stroke-width="2.8" stroke-linecap="round"/>
+  <text x="58" y="34" fill="url(#wm)" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.5">Floodify</text>
+</svg>
