@@ -54,12 +54,12 @@ def main() -> int:
         page.get_by_role("button", name="TILE-01", exact=True).click()
         expect(page.get_by_text("Hand-labeled ground truth").first).to_be_visible(timeout=TIMEOUT_MS)
         settle(page)
-        shoot(page, out_dir, "01_threat_analysis")
+        shoot(page, out_dir, "01_flood_assessment")
 
         page.get_by_role("button", name="SYNTH-05", exact=True).click()
         expect(page.get_by_text("UNFAMILIAR INPUT").first).to_be_visible(timeout=TIMEOUT_MS)
         settle(page)
-        shoot(page, out_dir, "02_ood_guard")
+        shoot(page, out_dir, "02_input_guard")
 
         page.get_by_role("tab", name="Priority Triage").click()
         tiles = sorted((ROOT / "samples").glob("*.*"))
@@ -68,17 +68,17 @@ def main() -> int:
         # All tabs are in the DOM; only the active tab's dataframe is visible.
         expect(page.locator('[data-testid="stDataFrame"]:visible')).to_have_count(1, timeout=TIMEOUT_MS)
         settle(page)
-        shoot(page, out_dir, "03_triage_queue")
+        shoot(page, out_dir, "03_priority_triage")
 
         page.get_by_role("tab", name="Model Performance").click()
         expect(page.get_by_text("Balanced accuracy").first).to_be_visible(timeout=TIMEOUT_MS)
         settle(page)
-        shoot(page, out_dir, "04_model_diagnostics")
+        shoot(page, out_dir, "04_model_performance")
 
         page.get_by_role("tab", name="System & Provenance").click()
         expect(page.get_by_text("Checkpoint provenance").first).to_be_visible(timeout=TIMEOUT_MS)
         settle(page)
-        shoot(page, out_dir, "05_system_overview")
+        shoot(page, out_dir, "05_system_provenance")
 
         # Regression check for the hidden-toolbar bug: collapse, then the reopen control must be visible.
         # The collapse button is only revealed while the pointer is over the sidebar.

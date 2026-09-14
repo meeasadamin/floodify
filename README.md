@@ -13,7 +13,7 @@
 
 > **Research prototype, not for operational use.** Trained on 10 flood events from Sen1Floods11 and tested on an 11th, **Pakistan**, that the model never saw.
 
-![Threat analysis](docs/screenshots/01_threat_analysis.png)
+![Floodify flood assessment](docs/screenshots/01_flood_assessment.png)
 
 ---
 
@@ -70,7 +70,7 @@ Per-event counts and the exact rule are recorded in [`images/dataset_summary.jso
 
 A classifier gives a confident-looking probability for *any* image. The guard compares each input's penultimate features to the 751 training tiles: the score is 1 − mean cosine similarity to the 10 nearest neighbours, and the threshold is the 99th percentile of validation scores. Flagged inputs are labeled **UNFAMILIAR INPUT · RESULT UNRELIABLE**.
 
-![OOD guard](docs/screenshots/02_ood_guard.png)
+![Input familiarity guard flagging a synthetic image](docs/screenshots/02_input_guard.png)
 
 The method was chosen by measurement, not assumption ([`tools/evaluate_ood_methods.py`](tools/evaluate_ood_methods.py)). Out-of-distribution inputs were synthetic tiles plus noise, flat-colour, text-document, and gradient images:
 
@@ -93,7 +93,11 @@ The Gaussian scores failed because synthetic images land *near* the training fea
 
 | Priority triage | Model performance |
 |---|---|
-| ![Triage](docs/screenshots/03_triage_queue.png) | ![Diagnostics](docs/screenshots/04_model_diagnostics.png) |
+| ![Priority triage](docs/screenshots/03_priority_triage.png) | ![Model performance](docs/screenshots/04_model_performance.png) |
+
+**System & provenance**
+
+![System and provenance](docs/screenshots/05_system_provenance.png)
 
 Grad-CAM++ is computed on the **flooded** logit, so a hotspot always means evidence *for* flooding. Overlay opacity scales with P(flooded), so clear tiles show almost no heat.
 
